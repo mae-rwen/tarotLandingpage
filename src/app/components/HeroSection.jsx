@@ -13,7 +13,7 @@ const HeroSection = () => {
             layout="fill"
             objectFit="cover"
             objectPosition="center 50%"
-            className="brightness-60"
+            className="brightness-50"
           />
         </div>
 
