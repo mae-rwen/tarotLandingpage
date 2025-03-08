@@ -2,9 +2,9 @@ import React from "react";
 
 const WelcomeSection = () => {
   return (
-    <section className="flex flex-col items-center text-center px-20">
+    <section className="pb-20 flex flex-col items-center text-center px-20">
       {/* Heading */}
-      <h2 className="  text-3xl md:text-5xl font-serif text-[#3D2E52]">
+      <h2 className=" text-3xl md:text-5xl font-serif text-[#3D2E52]">
         Odkryj ze mną swoją magię
       </h2>
 

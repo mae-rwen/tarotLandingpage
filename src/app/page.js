@@ -3,6 +3,7 @@ import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
 import WelcomeSection from "./components/WelcomeSection";
 import OfferSection from "./components/OfferSection";
+import AboutMeSection from "./components/AboutMeSection";
 
 export default function Home() {
   return (
@@ -12,9 +13,10 @@ export default function Home() {
         <div className="">
           <HeroSection />
         </div>
-        <div className="flex flex-col gap-30">
+        <div className="flex flex-col">
           <WelcomeSection />
           <OfferSection />
+          <AboutMeSection />
         </div>
       </div>
     </main>

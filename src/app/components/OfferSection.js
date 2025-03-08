@@ -27,7 +27,7 @@ const OfferSection = () => {
       <h2 className="text-3xl md:text-5xl font-serif text-center">
         Moja oferta
       </h2>
-      <p className="mt-4 text-center text-base md:text-lg max-w-2xl mx-auto">
+      <p className="mt-4 text-center text-base md:text-lg  mx-auto">
         Oferuję wsparcie w odkrywaniu Twojej wewnętrznej mocy poprzez taniec,
         tarot, medytację i energię. Wybierz ścieżkę, która do Ciebie przemawia.
       </p>
@@ -36,7 +36,7 @@ const OfferSection = () => {
       <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {offerings.map((offer, index) => (
           <div key={index} className="flex flex-col items-center text-center">
-            <div className="w-60 h-80 relative rounded-t-full overflow-hidden">
+            <div className="w-40 h-60 md:w-60 md:h-80 relative rounded-t-full overflow-hidden">
               <Image
                 src={offer.image}
                 alt={offer.title}
@@ -45,7 +45,7 @@ const OfferSection = () => {
                 className="hover:scale-105 transition-transform duration-300"
               />
             </div>
-            <h3 className="mt-4 text-base md:text-lg uppercase">
+            <h3 className="mt-4 text-base font-semibold md:text-lg uppercase">
               {offer.title}
             </h3>
           </div>
