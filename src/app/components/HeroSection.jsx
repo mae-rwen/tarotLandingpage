@@ -18,11 +18,11 @@ const HeroSection = () => {
         </div>
 
         {/* Title */}
-        <div className="relative bottom-30 md:bottom-55 z-20 text-center text-[#E1D9F2]">
-          <h1 className="text-3xl md:text-5xl lg:text-6xl font-serif tracking-wide">
+        <div className="relative bottom-30 md:bottom-55 lg:bottom-60 z-20 text-center font-serif text-[#E1D9F2]">
+          <h1 className="font-garamond text-3xl md:text-5xl lg:text-6xl tracking-wide">
             FIOLETOWA WRÓŻKA
           </h1>
-          <p className="mt-2 text-sm md:text-base lg:text-lg tracking-widest">
+          <p className="mt-2 text-sm md:text-base lg:text-lg font-sans tracking-widest">
             TANIEC • MEDYTACJA • TAROT
           </p>
         </div>
