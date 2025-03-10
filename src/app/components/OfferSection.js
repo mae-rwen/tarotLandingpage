@@ -5,19 +5,19 @@ const OfferSection = () => {
   const offerings = [
     {
       title: "Taniec FCBD® Style i Tribal Fusion",
-      image: "/images/welcome-image.jpg",
+      image: "/images/dance-image.jpg",
     },
     {
       title: "Tarot i Portrety Psychologiczne",
-      image: "/images/welcome-image.jpg",
+      image: "/images/tarot-image.jpg",
     },
     {
       title: "Medytacja i Uważność",
-      image: "/images/welcome-image.jpg",
+      image: "/images/meditation-image.jpg",
     },
     {
       title: "Reiki i Praca z Energią",
-      image: "/images/welcome-image.jpg",
+      image: "/images/reiki-image.jpg",
     },
   ];
 
@@ -25,11 +25,12 @@ const OfferSection = () => {
     <section className="py-20 px-6 bg-[#3D2E52] text-[#E1D9F2]">
       {/* Heading */}
       <h2 className="text-3xl md:text-5xl font-serif text-center">
-        Moja oferta
+        Czym się zajmuję
       </h2>
       <p className="mt-4 text-center text-base md:text-lg  mx-auto">
-        Oferuję wsparcie w odkrywaniu Twojej wewnętrznej mocy poprzez taniec,
-        tarot, medytację i energię. Wybierz ścieżkę, która do Ciebie przemawia.
+        Odkrywanie wewnętrznej mocy można wspierać na wiele sposobów. Moje
+        narzędzia to taniec, tarot, medytacja i energia. Każda z tych ścieżek
+        jest wyjątkowa, ale też uzupełniają się nawzajem.
       </p>
 
       {/* Offerings Grid */}

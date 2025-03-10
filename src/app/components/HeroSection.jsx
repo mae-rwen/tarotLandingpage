@@ -28,9 +28,9 @@ const HeroSection = () => {
         </div>
 
         {/* Avatar */}
-        <div className="absolute top-60 z-10 flex items-center justify-center w-50 h-75 md:w-90 md:h-130 bg-transparent rounded-full drop-shadow-2xl">
+        <div className="absolute top-60 z-10 flex items-center justify-center w-50 h-75 md:w-90 md:h-130 bg-[#3D2E52] border-6 border-[#3D2E52] rounded-full drop-shadow-2xl">
           <Image
-            src="/images/welcome-image.jpg"
+            src="/images/hero-image.jpg"
             alt="Avatar"
             fill
             className="rounded-full"
