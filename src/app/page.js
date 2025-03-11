@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import WelcomeSection from "./components/WelcomeSection";
 import OfferSection from "./components/OfferSection";
 import AboutMeSection from "./components/AboutMeSection";
+import ReviewsSection from "./components/ReviewsSection";
 
 export default function Home() {
   return (
@@ -13,10 +14,11 @@ export default function Home() {
         <div className="">
           <HeroSection />
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col pb-20">
           <WelcomeSection />
           <OfferSection />
           <AboutMeSection />
+          <ReviewsSection />
         </div>
       </div>
     </main>
