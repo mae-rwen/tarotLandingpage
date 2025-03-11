@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
+import Image from "next/image";
 
 const navLinks = [
   {
@@ -23,7 +24,7 @@ const navLinks = [
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   return (
-    <nav className="fixed top-0 left-0 right-0 z-30 bg-transparent bg-opacity-100">
+    <nav className="fixed top-0 left-0 right-0 z-30  bg-[#3D2E52]">
       <div className="flex flex-wrap items-center justify-between mx-auto px-4 py-2">
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
@@ -51,12 +52,20 @@ const Navbar = () => {
             ))}
           </ul>
         </div>
-        <Link
-          href={"/"}
-          className="text-2xl md:text-5xl text-white font-semibold"
-        >
-          TD
-        </Link>
+        <div className="w-10 h-10 relative rounded-full overflow-hidden">
+          <Link
+            href={"/"}
+            className="text-2xl md:text-5xl text-white font-semibold"
+          >
+            <Image
+              src="/images/kawka-logo.png"
+              alt="Logo"
+              layout="fill"
+              objectFit="cover"
+              className="rouded-full"
+            />
+          </Link>
+        </div>
       </div>
       {navbarOpen ? <MenuOverlay links={navLinks} /> : null}
     </nav>

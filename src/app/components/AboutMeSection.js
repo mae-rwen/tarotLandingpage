@@ -4,11 +4,11 @@ import React from "react";
 const AboutMeSection = () => {
   return (
     <section className="py-20 px-6 text-[#3D2E52]">
-      <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-15">
+      <h2 className="text-3xl md:text-5xl font-serif text-center pb-8">
+        O mnie
+      </h2>
+      <div className="flex flex-col-reverse md:flex-row items-center justify-center gap-6 md:gap-15">
         <div>
-          <h2 className="text-3xl md:text-5xl font-serif text-center md:text-end">
-            O mnie
-          </h2>
           <p className="mt-4 text-start text-base md:text-lg max-w-2xl ">
             Jestem Agata - w sieci znana Fioletowa Wróżka.
           </p>
